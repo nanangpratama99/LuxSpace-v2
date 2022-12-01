@@ -1,0 +1,283 @@
+:root {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* container */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .item-1 {}
+
+.container .item-2 {}
+
+.container .item-3 {}
+
+.container .item-4 {}
+
+/* item */
+
+.item-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.item-1 .sub-item-1 {
+    text-align: center;
+}
+
+.item-1 .sub-item-2 {}
+
+.btn {
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #7fffd4;
+    border: none;
+    margin-top: 20px;
+}
+
+.item-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-2 .sub-item-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.sub-item-a {
+    background-color: #7fffd4;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.sub-item-b {
+    background-color: aquamarine;
+    width: 400px;
+    height: 150px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.sub-item-2 img {
+    border-radius: 20px;
+    width: 50%;
+    align-items: flex-end;
+
+}
+
+
+.sub-item-3 {
+    background-color: aquamarine;
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sub-item-4 {
+    background-color: aquamarine;
+    width: 320px;
+    height: 320px;
+    border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+}
+
+.body {
+    justify-content: space-between;
+}
+
+/* item 3 */
+
+.item-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sub-item-5 {
+    background-color: aquamarine;
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.img {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.item-4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.p {
+    text-align: center;
+}
+
+.btn2 {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-left: 3px;
+    color: rgb(28, 25, 25);
+}
+
+input {
+    background-color: rgba(239, 239, 239, 0.459);
+    border-radius: 5px;
+    height: 30px;
+    width: 150px;
+    margin: none;
+    border: 1px solid rgba(19, 19, 19, 0.587);
+}
+
+.logoo {
+    width: 20px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.item-4 img {
+    justify-content: center;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(35, 32, 32, 0.868);
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+    color: rgb(27, 24, 24);
+
+}
+
+.items {
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(56, 56, 56);
+
+}
+
+.katalog {
+    background-color: rgba(239, 239, 239, 0.459);
+    padding: 20px 20px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+.nama-item {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    word-spacing: 5px;
+}
+
+.harga-item {
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.logo-satu {
+    display: flex;
+    flex-direction: column;
+}
+
+.interior img {
+    width: 700px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.deskripsi {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-spacing: 0;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+}
+
+.deskripsi h2 {
+    color: #60ffca;
+    margin-bottom: 2px;
+    margin-top: 30%;
+}
+
+.deskripsi p {
+    color: rgb(53, 53, 53);
+}
+
+.room label {
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.katalog p {
+    color: rgba(0, 0, 0, 0.692);
+}
+
+.link-footer a {
+    color: rgba(0, 0, 0, 0.502);
+}
+
+.main-title {
+    color: rgba(0, 0, 0, 0.763);
+}
