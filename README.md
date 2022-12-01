@@ -2,7 +2,7 @@
 ## Screenshot
 
 ### Main Page View
-![Main Card](https://user-images.githubusercontent.com/111034379/204976161-450c6213-6d9d-4d4f-a148-d8f884d0dc85.png)
+![main page](https://user-images.githubusercontent.com/111034379/204976415-2166ef47-097f-44d8-92fd-b487d5dc0ba8.png)
 
 ### Sub Page Menu
 ![sub page satu](https://user-images.githubusercontent.com/111034379/204976215-8ff2ed0e-11d0-4f93-ad52-93a84de43f48.png)
